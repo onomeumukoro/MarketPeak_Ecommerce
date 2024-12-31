@@ -71,4 +71,13 @@ The deployed Marketpeak_Ecommerce (crispy_kitchen) website can be accesed from o
 
 The command `git branch`![git branch/checkout](./img/14.gitdevelopmentbranch.png)
 
+**Git merge** command can be used to combine multiple sequence of commit into one unified history
+
+The command `git commit` ![git commit chef](./img/16.gitcommitchef.png)
+
+The command `git merge` ![gitmerge](./img/17.gitmergedev.png)
+
+**Git Pull** command is used to fetch and download content from a remote repository and immediately update the local repository to match that content
+
+The command `git pull` ![git pull](./img/18.gitpull.png)
 
