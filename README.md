@@ -1,6 +1,6 @@
 # MARKETPEAK_ECOMMERCE
 
-In this project we will utilize Git for version control, developing the marketpeak platform (crispy kitchen) in a linux environment and also deploy it on an AWS EC2 instance, while adding new features, updates and fixing bugs, working on development branches and integrating all changes into the main barnch.
+In this project we will utilize Git for version control, developing the marketpeak platform (crispy kitchen) in a linux environment and also deploy it on an AWS EC2 instance, while adding new features, updates and fixing bugs, working on development branch and integrating all changes into the main branch.
 
 ## What we will do in these project:
 
@@ -81,3 +81,18 @@ The command `git merge` ![gitmerge](./img/17.gitmergedev.png)
 
 The command `git pull` ![git pull](./img/18.gitpull.png)
 
+**connect to the EC2 instance using SSH** SSH or secure shell is a network protocol that allows a user to securely access a remote server such as an amazon elastic compute cloud.
+
+`ssh` ![SSHEC2](./img/19.SSHEC2server.png)
+
+**Git Pull origin main** command is used to fetch and download content from the main branch to the SSH EC2 server where the website directory is located. 
+
+The command `git pull origin main` ![gitpulloriginmain](./img/20.gitpullmain.png)
+
+**sudo systemctl reload httpd** command is used to restart the installed apache webserver after which you must have used the sudo (superuserdo) command to remove all the old default root folder for the webserver and replaced with a new root folder where the changes or bug fixes were carried out on.
+
+The command `sudosystemctl` ![sudo systemctl](./img/21.sudosystemctl.png)
+
+lastly the webpage (publicip/2129_crispy_kitchen) is viewed on a web browser to ascertain the changes and bug fixes made
+
+`Finalchanges` ![changes from senior to chief](./img/22.chiefchefchanges.png)
